@@ -11,8 +11,8 @@ import (
 
 	"fmt"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/docker/engine-api/client"
+	"github.com/docker/engine-api/types"
 )
 
 var cniPath = flag.String("cni.path", "/var/lib/cni/networks/podnet", "Path to lookup CNI IP Assigments")
